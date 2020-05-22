@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lab2.2.css" />
+    <title>lab</title>
+  </head>
+  <body>
+    <h1 id="c">Your anketa</h1>
+    <form action="">
+      <div>
+        <p class="errorName">The age must be letters</p>
+        <label for="name">Name : </label>
+        <input
+          class="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div>
+        <p class="errorAge">The age must be positive</p>
+        <label for="age">Age : </label>
+        <input
+          class="age"
+          type="number"
+          name="age"
+          placeholder="Enter your age"
+        />
+      </div>
+      <div class = gender>
+        <label for="gender">Gender : </label>
+         Male
+        <input type="radio" name="gender" id="gender" value="male"/>
+         Female
+        <input type="radio" name="gender" id="gender" value="femaie"/>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <div class="output"></div>
+    <script src="lab2.2.js"></script>
+  </body>
+</html>
